@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Technology agency landing page inspired by Figma design, built with semantic HTML, CSS, and vanilla JavaScript."
+    />
+    <title>ApriTech | Company Technology Landing Page</title>
+    <link rel="icon" href="assets/icons/Frame.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@500;600;700&family=Poppins:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/main.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html" aria-label="ApriTech home">
+          <span class="brand-mark" aria-hidden="true"
+            ><i></i><i></i><i></i
+          ></span>
+          apriTech
+        </a>
+        <button
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Open navigation menu"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Primary">
+          <ul>
+            <li><a href="index.html" aria-current="page">Agency</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#team">Careers</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="services.html">Packages</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a class="btn btn-nav" href="contact.html">Hire Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero figma-hero" aria-labelledby="hero-title">
+        <div class="container hero-grid">
+          <article>
+            <span class="detail-mark" aria-hidden="true"
+              ><i></i><i></i><i></i
+            ></span>
+            <p class="eyebrow">Technology partner for ambitious teams</p>
+            <h1 id="hero-title">Build digital products that move your business forward</h1>
+            <p class="lead">
+              We combine thoughtful strategy, purposeful design, and reliable
+              engineering to turn complex ideas into useful digital experiences.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="services.html">Our Services</a>
+              <a class="btn btn-ghost" href="contact.html">Free Trial</a>
+            </div>
+          </article>
+          <aside class="hero-phones" aria-label="Mobile app previews">
+            <img
+              src="assets/image/image 5.svg"
+              alt="Purple analytics app screen mockup"
+            />
+          </aside>
+        </div>
+      </section>
+
+      <section
+        id="about"
+        class="section who-section"
+        aria-labelledby="who-title"
+      >
+        <div class="container">
+          <div class="who-grid">
+            <figure>
+              <img
+                src="assets/image/fahim-muntashir-v-FOvoL3onk-unsplash.svg"
+                alt="Team members discussing a project in a meeting room"
+              />
+            </figure>
+            <article>
+              <span class="detail-mark" aria-hidden="true"
+                ><i></i><i></i><i></i
+              ></span>
+              <p class="chip">We are an expert team</p>
+              <h2 id="who-title">Who are we?</h2>
+              <p class="who-lead">
+                We build custom software that drives innovation and social
+                impact
+              </p>
+              <p>
+                ApriTech is a technology studio helping growing organisations
+                plan, design, and build better digital products. From websites
+                and mobile apps to data-driven platforms, we create practical,
+                user-friendly solutions that support real business goals.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section" aria-labelledby="services-title">
+        <div class="container">
+          <span class="detail-mark" aria-hidden="true"
+            ><i></i><i></i><i></i
+          ></span>
+          <h2 id="services-title">Our Services</h2>
+          <p class="section-sub">
+            The wide code of digital transformation through trusted tech sync.
+          </p>
+          <div class="services-grid">
+            <article class="service-card">
+              <div class="service-icon" aria-hidden="true">
+                <img src="assets/icons/Group 43.svg" alt="" />
+              </div>
+              <h3>Web Development</h3>
+              <p>
+                Our team creates web solutions including websites and web
+                applications.
+              </p>
+            </article>
+            <article class="service-card">
+              <div class="service-icon" aria-hidden="true">
+                <img src="assets/icons/Group 679.svg" alt="" />
+              </div>
+              <h3>App Development</h3>
+              <p>
+                Build responsive, scalable mobile applications with clean user
+                experience.
+              </p>
+            </article>
+            <article class="service-card">
+              <div class="service-icon" aria-hidden="true">
+                <img src="assets/icons/Group 682.svg" alt="" />
+              </div>
+              <h3>SEO Optimization</h3>
+              <p>
+                Improve discoverability and growth through technical and content
+                SEO strategies.
+              </p>
+            </article>
+            <article class="service-card">
+              <div class="service-icon" aria-hidden="true">
+                <img src="assets/icons/Vector (3).svg" alt="" />
+              </div>
+              <h3>Web Redesign</h3>
+              <p>
+                Refresh outdated experiences into modern, performance-driven
+                digital products.
+              </p>
+            </article>
+            <article class="service-card">
+              <div class="service-icon" aria-hidden="true">
+                <img src="assets/icons/Frame.svg" alt="" />
+              </div>
+              <h3>Email Campaigns</h3>
+              <p>
+                Automate customer journeys and increase conversion through
+                segmented campaigns.
+              </p>
+            </article>
+            <article class="service-card">
+              <div class="service-icon" aria-hidden="true">
+                <img src="assets/icons/Group 43.svg" alt="" />
+              </div>
+              <h3>Other Services</h3>
+              <p>
+                We can deliver a broad range of quality products and solutions
+                to problems.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="portfolio"
+        class="section portfolio"
+        aria-labelledby="portfolio-title"
+      >
+        <div class="container portfolio-grid">
+          <article>
+            <span class="detail-mark" aria-hidden="true"
+              ><i></i><i></i><i></i
+            ></span>
+            <h2 id="portfolio-title">Our Portfolio</h2>
+            <p class="section-sub">
+              We are delivering quality software from diverse sectors worldwide.
+            </p>
+            <h3>Vision and purpose with each feature</h3>
+            <p>
+              Build a digital path that supports your mission through product
+              clarity, efficient delivery, and measurable outcomes. We blend
+              strategy, design, and engineering into a practical implementation
+              flow.
+            </p>
+            <a class="btn btn-primary" href="services.html">Learn more</a>
+          </article>
+          <figure>
+            <img
+              src="assets/image/image 7.svg"
+              alt="Two mobile screens showing business product interfaces"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section
+        id="team"
+        class="section team-section"
+        aria-labelledby="team-title"
+      >
+        <div class="container">
+          <span class="detail-mark" aria-hidden="true"
+            ><i></i><i></i><i></i
+          ></span>
+          <h2 id="team-title">Meet Our Talented Team</h2>
+          <p class="section-sub">
+            Our team leads quality and trusted technical delivery.
+          </p>
+          <div class="team-grid">
+            <article class="team-card">
+              <img
+                src="assets/image/image 5.svg"
+                alt="Portrait of team member John Mark Oliver"
+              />
+              <h3>JOHN MARK OLIVER</h3>
+              <p>CHIEF EXECUTIVE OFFICER</p>
+            </article>
+            <article class="team-card">
+              <img
+                src="assets/image/image 6.svg"
+                alt="Portrait of team member James Martin"
+              />
+              <h3>JAMES MARTIN</h3>
+              <p>CHIEF TECHNOLOGY OFFICER</p>
+            </article>
+            <article class="team-card">
+              <img
+                src="assets/image/image 7.svg"
+                alt="Portrait of team member Chris Martin"
+              />
+              <h3>CHRIS MARTIN</h3>
+              <p>CHIEF MARKETING OFFICER</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section clients" aria-labelledby="clients-title">
+        <div class="container">
+          <span class="detail-mark" aria-hidden="true"
+            ><i></i><i></i><i></i
+          ></span>
+          <h2 id="clients-title">Our Clients</h2>
+          <p class="section-sub">
+            We are trusted by successful business founders.
+          </p>
+          <div class="testimonial-slider" aria-label="Client testimonials">
+            <button
+              class="slider-btn"
+              type="button"
+              data-slide="prev"
+              aria-label="Previous testimonials"
+            >
+              &#8249;
+            </button>
+            <div class="testimonial-track" data-slider-track>
+              <article class="testimonial-card">
+                <h3>XYZ</h3>
+                <p class="stars" aria-label="5 star rating">★★★★★</p>
+                <p>
+                  Great service quality and execution. The team understood our
+                  business goals quickly and delivered results in every sprint.
+                </p>
+              </article>
+              <article class="testimonial-card">
+                <h3>XYZ</h3>
+                <p class="stars" aria-label="5 star rating">★★★★★</p>
+                <p>
+                  Clear communication and technical excellence. They helped us
+                  launch faster and improve user engagement significantly.
+                </p>
+              </article>
+              <article class="testimonial-card">
+                <h3>XYZ</h3>
+                <p class="stars" aria-label="5 star rating">★★★★★</p>
+                <p>
+                  Professional agency with real product thinking. Their team
+                  transformed our concept into a reliable digital platform.
+                </p>
+              </article>
+              <article class="testimonial-card">
+                <h3>XYZ</h3>
+                <p class="stars" aria-label="5 star rating">★★★★★</p>
+                <p>
+                  From discovery to delivery, every phase was smooth and
+                  measurable. Strong recommendation for growth-stage companies.
+                </p>
+              </article>
+            </div>
+            <button
+              class="slider-btn"
+              type="button"
+              data-slide="next"
+              aria-label="Next testimonials"
+            >
+              &#8250;
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt cta" aria-labelledby="cta-title">
+        <div class="container cta-grid">
+          <article>
+            <span class="detail-mark" aria-hidden="true"
+              ><i></i><i></i><i></i
+            ></span>
+            <h2 id="cta-title">Got a project in mind?</h2>
+            <p>
+              Tell us your challenge and we will provide a tailored delivery
+              plan.
+            </p>
+            <a class="btn btn-primary" href="contact.html">Submit</a>
+          </article>
+          <figure>
+            <img
+              src="assets/image/image 6.svg"
+              alt="Hand holding a smartphone showing ApriTech app screen"
+            />
+          </figure>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>
+          &copy; 2026 apriTech. Built for ICT203 technology industry prototype.
+        </p>
+        <ul aria-label="Footer links">
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
