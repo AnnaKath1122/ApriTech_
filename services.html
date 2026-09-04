@@ -1,3 +1,233 @@
-<h1 id="services-title">
-            Services built for growth-stage technology team.
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Service packages and frequently asked questions for ApriTech."
+    />
+    <title>ApriTech | Services</title>
+    <link rel="icon" href="assets/icons/Frame.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@500;600;700&family=Poppins:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/main.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html" aria-label="ApriTech home">
+          <span class="brand-mark" aria-hidden="true"
+            ><i></i><i></i><i></i></span
+          >apriTech
+        </a>
+        <button
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Open navigation menu"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Primary">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html" aria-current="page">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="page-hero" aria-labelledby="services-title">
+        <div class="container">
+          <span class="detail-mark" aria-hidden="true"
+            ><i></i><i></i><i></i
+          ></span>
+          <p class="eyebrow">What we deliver</p>
+          <h1 id="services-title">
+            Services built for growth-stage technology teams.
           </h1>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="pricing-title">
+        <div class="container">
+          <div class="section-header">
+            <h2 id="pricing-title">Flexible delivery plans</h2>
+            <div
+              class="billing-toggle"
+              role="group"
+              aria-label="Billing period"
+            >
+              <button
+                class="toggle-btn is-active"
+                data-billing="monthly"
+                aria-pressed="true"
+              >
+                Monthly
+              </button>
+              <button
+                class="toggle-btn"
+                data-billing="yearly"
+                aria-pressed="false"
+              >
+                Yearly
+              </button>
+            </div>
+          </div>
+
+          <div class="pricing-grid" aria-live="polite">
+            <article class="pricing-card">
+              <h3>Launch</h3>
+              <p class="price" data-monthly="3,200" data-yearly="2,700">
+                $3,200
+              </p>
+              <p class="price-note">Best for startups shipping MVPs.</p>
+              <ul>
+                <li>Discovery workshop</li>
+                <li>UI implementation support</li>
+                <li>Weekly sprint cadence</li>
+              </ul>
+            </article>
+
+            <article class="pricing-card featured">
+              <p class="chip">Most chosen</p>
+              <h3>Scale</h3>
+              <p class="price" data-monthly="6,400" data-yearly="5,500">
+                $6,400
+              </p>
+              <p class="price-note">
+                For teams building multi-product ecosystems.
+              </p>
+              <ul>
+                <li>Everything in Launch</li>
+                <li>Cloud architecture advisory</li>
+                <li>Advanced analytics setup</li>
+              </ul>
+            </article>
+
+            <article class="pricing-card">
+              <h3>Enterprise</h3>
+              <p class="price" data-monthly="9,800" data-yearly="8,300">
+                $9,800
+              </p>
+              <p class="price-note">For complex enterprise transformation.</p>
+              <ul>
+                <li>Dedicated technical lead</li>
+                <li>Security and compliance planning</li>
+                <li>Executive reporting</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" aria-labelledby="faq-title">
+        <div class="container">
+          <span class="detail-mark" aria-hidden="true"
+            ><i></i><i></i><i></i
+          ></span>
+          <h2 id="faq-title">Frequently asked questions</h2>
+          <div class="faq-list">
+            <article class="faq-item">
+              <h3>
+                <button
+                  class="faq-btn"
+                  aria-expanded="false"
+                  aria-controls="faq-1"
+                  id="faq-btn-1"
+                >
+                  How quickly can you onboard our team?
+                </button>
+              </h3>
+              <div
+                id="faq-1"
+                class="faq-panel"
+                role="region"
+                aria-labelledby="faq-btn-1"
+                hidden
+              >
+                <p>
+                  We usually start discovery within 5 business days after
+                  project alignment and kickoff documentation.
+                </p>
+              </div>
+            </article>
+
+            <article class="faq-item">
+              <h3>
+                <button
+                  class="faq-btn"
+                  aria-expanded="false"
+                  aria-controls="faq-2"
+                  id="faq-btn-2"
+                >
+                  Do you work with internal engineers?
+                </button>
+              </h3>
+              <div
+                id="faq-2"
+                class="faq-panel"
+                role="region"
+                aria-labelledby="faq-btn-2"
+                hidden
+              >
+                <p>
+                  Yes. We embed with your internal team and align with your
+                  tools, sprint process, and governance standards.
+                </p>
+              </div>
+            </article>
+
+            <article class="faq-item">
+              <h3>
+                <button
+                  class="faq-btn"
+                  aria-expanded="false"
+                  aria-controls="faq-3"
+                  id="faq-btn-3"
+                >
+                  Can we scale scope after month one?
+                </button>
+              </h3>
+              <div
+                id="faq-3"
+                class="faq-panel"
+                role="region"
+                aria-labelledby="faq-btn-3"
+                hidden
+              >
+                <p>
+                  Absolutely. We review delivery capacity every sprint and can
+                  scale your plan up or down based on priorities.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>
+          &copy; 2026 apriTech. Built for ICT203 technology industry prototype.
+        </p>
+        <ul aria-label="Footer links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
